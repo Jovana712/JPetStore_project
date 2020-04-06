@@ -62,12 +62,20 @@ public class CartPageTest {
 
 	@Test
 	public void isCookiesFuncTest() {
-
-		this.driver.navigate().to(locators.getProperty("carturl"));
-
+		
+		StoreItemPage storeItem = new StoreItemPage(driver, locators, waiter);
 		CartPage pageCart = new CartPage(driver, locators, waiter);
 		SoftAssert sa = new SoftAssert();
 
+		this.driver.navigate().to(locators.getProperty("carturl"));
+		
+		for (int i = 1; i < ExcelUtils.getRowNumber(); i++) {
+			driver.navigate().to(ExcelUtils.getDataAt(i, 1));
+			storeItem.addToCartClick();
+			
+		}
+		
+		this.driver.navigate().to(locators.getProperty("carturl"));
 		pageCart.deleteAllCookies();
 		driver.navigate().refresh();
 		sa.assertTrue(pageCart.isCartEmpty());
