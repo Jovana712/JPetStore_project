@@ -1,25 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36150" started-at="2020-04-06T20:29:46 CEST" finished-at="2020-04-06T20:30:23 CEST">
+  <suite name="Testing JPetStore App" duration-ms="274393" started-at="2020-04-06T21:26:19 CEST" finished-at="2020-04-06T21:30:54 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36150" started-at="2020-04-06T20:29:46 CEST" finished-at="2020-04-06T20:30:23 CEST">
+    <test name="Functions" duration-ms="274393" started-at="2020-04-06T21:26:19 CEST" finished-at="2020-04-06T21:30:54 CEST">
       <class name="tests.CartPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CartPageTest@551aa95a]" name="setup" is-config="true" duration-ms="16553" started-at="2020-04-06T20:29:47 CEST" finished-at="2020-04-06T20:30:03 CEST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.CartPageTest@3a883ce7]" name="setup" is-config="true" duration-ms="15124" started-at="2020-04-06T21:30:24 CEST" finished-at="2020-04-06T21:30:39 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:tests.CartPageTest@551aa95a]" name="addToCartTest" duration-ms="13105" started-at="2020-04-06T20:30:03 CEST" finished-at="2020-04-06T20:30:16 CEST">
+        <test-method status="PASS" signature="addToCartTest()[pri:0, instance:tests.CartPageTest@3a883ce7]" name="addToCartTest" duration-ms="8597" started-at="2020-04-06T21:30:39 CEST" finished-at="2020-04-06T21:30:48 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method status="PASS" signature="isCookiesFuncTest()[pri:0, instance:tests.CartPageTest@551aa95a]" name="isCookiesFuncTest" duration-ms="6345" started-at="2020-04-06T20:30:16 CEST" finished-at="2020-04-06T20:30:23 CEST">
+        <test-method status="PASS" signature="isCookiesFuncTest()[pri:0, instance:tests.CartPageTest@3a883ce7]" name="isCookiesFuncTest" duration-ms="5878" started-at="2020-04-06T21:30:48 CEST" finished-at="2020-04-06T21:30:54 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isCookiesFuncTest -->
       </class> <!-- tests.CartPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="tests.PetStoreMenuTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PetStoreMenuTest@3d99d22e]" name="setup" is-config="true" duration-ms="12835" started-at="2020-04-06T21:26:37 CEST" finished-at="2020-04-06T21:26:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testImageMenu()[pri:0, instance:tests.PetStoreMenuTest@3d99d22e]" name="testImageMenu" duration-ms="7413" started-at="2020-04-06T21:26:50 CEST" finished-at="2020-04-06T21:26:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImageMenu -->
+        <test-method status="PASS" signature="testLeftMenu()[pri:0, instance:tests.PetStoreMenuTest@3d99d22e]" name="testLeftMenu" duration-ms="4023" started-at="2020-04-06T21:26:58 CEST" finished-at="2020-04-06T21:27:02 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeftMenu -->
+        <test-method status="PASS" signature="testQuickMenu()[pri:0, instance:tests.PetStoreMenuTest@3d99d22e]" name="testQuickMenu" duration-ms="4080" started-at="2020-04-06T21:27:02 CEST" finished-at="2020-04-06T21:27:06 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuickMenu -->
+        <test-method status="PASS" signature="testSignInButton()[pri:0, instance:tests.PetStoreMenuTest@3d99d22e]" name="testSignInButton" duration-ms="30280" started-at="2020-04-06T21:27:06 CEST" finished-at="2020-04-06T21:27:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInButton -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.PetStoreMenuTest@3d99d22e]" name="afterClass" is-config="true" duration-ms="249" started-at="2020-04-06T21:27:36 CEST" finished-at="2020-04-06T21:27:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.PetStoreMenuTest -->
+      <class name="tests.SignInPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.SignInPageTest@cd2dae5]" name="setup" is-config="true" duration-ms="13886" started-at="2020-04-06T21:28:51 CEST" finished-at="2020-04-06T21:29:05 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginInTest()[pri:0, instance:tests.SignInPageTest@cd2dae5]" name="loginInTest" duration-ms="77656" started-at="2020-04-06T21:29:05 CEST" finished-at="2020-04-06T21:30:23 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginInTest -->
+        <test-method status="PASS" signature="registerBtnFuncTest()[pri:0, instance:tests.SignInPageTest@cd2dae5]" name="registerBtnFuncTest" duration-ms="702" started-at="2020-04-06T21:30:23 CEST" finished-at="2020-04-06T21:30:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerBtnFuncTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SignInPageTest@cd2dae5]" name="afterClass" is-config="true" duration-ms="347" started-at="2020-04-06T21:30:24 CEST" finished-at="2020-04-06T21:30:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SignInPageTest -->
+      <class name="tests.EnterTheStoreTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.EnterTheStoreTest@32709393]" name="setup" is-config="true" duration-ms="15097" started-at="2020-04-06T21:26:19 CEST" finished-at="2020-04-06T21:26:34 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="enterTheStoreTest()[pri:0, instance:tests.EnterTheStoreTest@32709393]" name="enterTheStoreTest" duration-ms="2223" started-at="2020-04-06T21:26:34 CEST" finished-at="2020-04-06T21:26:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterTheStoreTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.EnterTheStoreTest@32709393]" name="afterClass" is-config="true" duration-ms="656" started-at="2020-04-06T21:26:37 CEST" finished-at="2020-04-06T21:26:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.EnterTheStoreTest -->
+      <class name="tests.RegistrationPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.RegistrationPageTest@49fc609f]" name="setup" is-config="true" duration-ms="12576" started-at="2020-04-06T21:27:36 CEST" finished-at="2020-04-06T21:27:49 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="RegistrationTest()[pri:0, instance:tests.RegistrationPageTest@49fc609f]" name="RegistrationTest" duration-ms="62610" started-at="2020-04-06T21:27:49 CEST" finished-at="2020-04-06T21:28:51 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationTest -->
+      </class> <!-- tests.RegistrationPageTest -->
+    </test> <!-- Functions -->
+  </suite> <!-- Testing JPetStore App -->
 </testng-results>
