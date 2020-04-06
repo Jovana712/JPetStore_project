@@ -55,7 +55,9 @@ public class CartPageTest {
 			sa.assertTrue(pageCart.isItemAddedToCart(ExcelUtils.getDataAt(i, 0)));
 
 		}
+		
 		sa.assertAll();
+		
 	}
 
 	@Test
